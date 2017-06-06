@@ -1571,7 +1571,7 @@ void Game::setClientVersion(int version)
         enableFeature(Otc::GamePlayerRegenerationTime);
         enableFeature(Otc::GameChannelPlayerList);
         enableFeature(Otc::GameEnvironmentEffect);
-        enableFeature(Otc::GameItemAnimationPhase);
+        //enableFeature(Otc::GameItemAnimationPhase);
     }
 
     if(version >= 940) {
